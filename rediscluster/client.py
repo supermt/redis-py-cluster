@@ -204,6 +204,7 @@ class RedisCluster(Redis):
         string_keys_to_dict([
             "CLUSTER NODES",
             "CLUSTER SLOTS",
+            "CLUSTERX"
             "RANDOMKEY",
         ], 'random'),
         string_keys_to_dict([
